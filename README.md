@@ -1,16 +1,16 @@
 # STEYDA — Candy Operating Dashboard + Assistant
 
 A self-contained web dashboard for the STEYDA (Hali Design AB) Amazon FBA candy
-business, with a built-in assistant that answers questions from the dashboard's
-own live data.
+business, with **Billy** — a built-in AI assistant that answers questions from
+the dashboard's own live data.
 
 ## What's here
 - **`index.html`** — the full Candy Operating Dashboard (Overview, PPC, Sales &
   Traffic, inventory, production/purchase planners) **plus** a "✨ Ask" assistant
   panel (bottom-right).
 
-## The assistant
-Tap **Ask** and query in plain English:
+## Billy (the assistant)
+Tap **Ask Billy** and query in plain English:
 - "What needs restocking?" — SKUs sorted by urgency, with order qty + stockout
 - "Days of cover for Bubs" / "how much to order for [SKU]"
 - "Top sellers last 30 days" / "slowest sellers"

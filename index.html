@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
 <title>STEYDA — Candy Operating Dashboard</title>
 <style>
 :root{
@@ -3875,11 +3876,11 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 
 <button id="ca-fab" aria-label="Open assistant">
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 0 0-9 9c0 1.6.4 3.1 1.2 4.4L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><circle cx="8.5" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="15.5" cy="12" r="1"/></svg>
-  Ask
+  Ask Billy
 </button>
 
 <section id="ca-panel" aria-live="polite">
-  <div id="ca-head"><span class="ca-dot"></span><b>Candy Assistant</b><small id="ca-sub"></small><button id="ca-close" aria-label="Close">×</button></div>
+  <div id="ca-head"><span class="ca-dot"></span><b>Billy</b><small id="ca-sub"></small><button id="ca-close" aria-label="Close">×</button></div>
   <div id="ca-log"></div>
   <div id="ca-chips"></div>
   <form id="ca-form"><input id="ca-input" autocomplete="off" placeholder="Ask about restock, cover, sales…"><button id="ca-send" type="submit">Send</button></form>
@@ -4046,7 +4047,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
     window.askAgent(q).then(function(html){t.innerHTML=html;log.scrollTop=log.scrollHeight;});
   }
   form.onsubmit=function(e){e.preventDefault();var v=input.value.trim();if(v)ask(v);};
-  add("Hi! I'm reading this dashboard's live data (as of <b>"+esc(META.asof||'')+"</b>). Ask me about restock, days of cover, velocity, or sales — or tap a chip below.",'bot');
+  add("Hi, I'm <b>Billy</b> 👋 I read this dashboard's live data (as of <b>"+esc(META.asof||'')+"</b>). Ask me about restock, days of cover, velocity, or sales — or tap a chip below.",'bot');
 })();
 </script>
 <!-- ================== END STEYDA CANDY ASSISTANT ================== -->
